@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById("tshirtCanvas");
+            var context = canvas.getContext("2d");
+            context.fillRect(10, 10, 100, 100);
+        }
+    </script>
+    <title>I Drew A Thing</title>
+</head>
+
+<body>
+    <canvas width="600" height="200" id="tshirtCanvas"></canvas>
+</body>
+
+</html>
